@@ -6,32 +6,27 @@ using System.Threading.Tasks;
 
 namespace DevicesAssignment
 {
-    public class Laptop : IConnectable, IDisplayable, IRechargeable
+    public class Laptop : IConnectable, IRechargeable, IDisplayable
     {
-        public string Brand { get; set; }
-
-        public Laptop(string brand)
-        {
-            Brand = brand;
-        }
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public int BatteryLevel { get; set; }
 
         public bool Connect()
         {
-            // Implementation for Connect method
-            Console.WriteLine($"{Brand} laptop connected successfully.");
+            Console.WriteLine("Laptop connected successfully!");
             return true;
         }
 
         public void Charge(int minutes)
         {
-            // Implementation for Charge method
-            Console.WriteLine($"{Brand} laptop is charging for {minutes} minutes.");
+            BatteryLevel += minutes;
+            Console.WriteLine($"Laptop charged for {minutes} minutes.");
         }
 
         public string Display()
         {
-            // Implementation for Display method
-            return $"{Brand} laptop display: Desktop";
+            return $"Laptop Details: {Manufacturer} {Model}, Battery Level: {BatteryLevel}%";
         }
     }
 }

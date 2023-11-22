@@ -6,34 +6,27 @@ using System.Threading.Tasks;
 
 namespace DevicesAssignment
 {
-    public class SmartPhone : IConnectable, IDisplayable, IRechargeable
+    public class Smartphone : IConnectable, IRechargeable, IDisplayable
     {
+        public string Brand { get; set; }
         public string Model { get; set; }
-
-        public SmartPhone(string model)
-        {
-            Model = model;
-        }
+        public int BatteryLevel { get; set; }
 
         public bool Connect()
         {
-            // Implementation for Connect method
-            Console.WriteLine($"{Model} connected successfully.");
+            Console.WriteLine("Smartphone connected successfully!");
             return true;
         }
 
         public void Charge(int minutes)
         {
-            // Implementation for Charge method
-            Console.WriteLine($"{Model} is charging for {minutes} minutes.");
+            BatteryLevel += minutes;
+            Console.WriteLine($"Smartphone charged for {minutes} minutes.");
         }
 
         public string Display()
         {
-            // Implementation for Display method
-            return $"{Model} display: Home screen";
+            return $"Smartphone Details: {Brand} {Model}, Battery Level: {BatteryLevel}%";
         }
     }
-
-
 }

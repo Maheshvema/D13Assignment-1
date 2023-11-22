@@ -1,0 +1,7 @@
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\bin\Debug\DevicesAssignment.exe.config
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\bin\Debug\DevicesAssignment.exe
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\bin\Debug\DevicesAssignment.pdb
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\obj\Debug\DevicesAssignment.csproj.AssemblyReference.cache
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\obj\Debug\DevicesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\obj\Debug\DevicesAssignment.exe
+C:\Users\Sai Yaswanth\OneDrive\Desktop\simplilearn\Day-13 Assignment\DevicesAssignment\DevicesAssignment\obj\Debug\DevicesAssignment.pdb
